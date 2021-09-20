@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    width: 800px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    background-color: #ccc;
+    margin: 10px;
+}
+
+.navbar .title {
+    width: 200px;
+    margin: 10px;
+}
+
+.navbar input {
+    width: 200px;
+    height: 20px;
+    margin: 15px 10px 10px 10px;
+    border: solid 1px #000;
+
+}
+
+.navbar button {
+    width: 70px;
+    padding: 3px;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: rgb(51, 116, 214);
+    color: white;
+    border: solid 2px #000;
+    box-shadow: 3px 2px 1px #000;
+}
+
+#container {
+    display: flex;
+    width: 800px;
+    gap: 20px;
+}
+
+#row1 {
+    gap: 10px;
+    justify-content: space-between;
+}
+
+#row1 u {
+    color: rgb(0, 140, 255);
+}
+
+.box1 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: solid 3px #000;
+    margin: 10px;
+}
+
+.box1 .ninja {
+    flex: 2;
+    width: 400px;
+}
+
+.ninja h1 {
+    margin-left: 10px;
+}
+
+.ninja h3 {
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.ninja h4 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.ninja h4 span {
+    font-style: italic;
+}
+
+.ninja .likebttn button {
+    width: 80px;
+    height: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(255, 230, 0);
+    border: solid 2px #000;
+    box-shadow: 3px 2px 2px #000;
+    margin: 30px 10px 20px 10px;
+}
+
+.box1 .def1 {
+    flex: 5;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box2 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: solid 3px #000;
+    margin: 10px;
+}
+
+.box2 .ninja2 {
+    flex: 2;
+    width: 400px;
+}
+
+.ninja2 h1 {
+    margin-left: 10px;
+}
+
+.ninja2 h3 {
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.ninja2 h4 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.ninja2 h4 span {
+    font-style: italic;
+}
+
+.ninja2 .likebttn button {
+    width: 80px;
+    height: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(255, 230, 0);
+    border: solid 2px #000;
+    box-shadow: 3px 2px 2px #000;
+    margin: 30px 10px 20px 10px;
+}
+
+.box2 .def1 {
+    flex: 5;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.row2 {
+    display: flex;
+    width: 50%;
+}
+
+.box3 {
+    height: 150px;
+    width: 300px;
+    border: solid 3px #000;
+    margin: 10px;
+}
+
+.box3 p {
+    margin: 10px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.box3 p span {
+    font-weight: bold;
+}
+
+.box3 button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(151, 192, 138);
+    border: solid 2px #000;
+    box-shadow: 3px 2px 2px #000;
+    margin-left: 50px;
+}
